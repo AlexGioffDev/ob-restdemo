@@ -3,14 +3,12 @@ package com.example.obrestdemo;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-//@SpringBootTest
+@SpringBootTest
 class ObRestdemoApplicationTests {
 
 	@Test
 	void contextLoads() {
-		System.getenv().forEach(
-				(key, value) -> System.out.println(key + "=" + value)
-		);
+
 	}
 
 }
